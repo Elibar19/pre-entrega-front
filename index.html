@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAC-MOVIES</title>
+   
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <nav class="navegacion">
+            <a class="anclaLogo" href="#">
+                <i class="fas fa-film" aria-hidden="true"></i>
+                <span>CAC-Movies</span>
+            </a>
+            <ul class="listaNav">
+                <li class="listaItem"><a class="linkNav" href="#tendencias">Tendencias</a></li>
+                <li class="listaItem"><a class="linkNav" href="./pages/registrarse.html">Registrarse</a></li>
+                <li class="listaItem"><a class="linkNav iniciarSesion" href="./pages/iniciosesion.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main" >
+        <section class="sectionTitulos">
+            <div class="contenedorTitulos">
+                <h1 >Peliculas y series ilimitadas <br> en un solo lugar</h1>
+                <h2 >Disfruta donde quieras. <br> Cancela en cualquier momento.</h2>
+                <a  href="./pages/registrarse.html">Registrate</a>
+            </div>
+           
+        </section>
+        <section class="buscadorPrincipal">
+            <h2 class="tituloBuscar">¿Qué estas buscando para ver?</h2>
+            <form class="formBuscar">
+                <input class="buscar" type="text" placeholder="Buscar..." id="buscar" name="buscar">
+                <input class="botonBuscar" type="submit" value="Buscar">
+            </form>
+           
+
+        </section>
+        <hr>
+        <section id="tendencias" class="peliculasTendencias">
+            <h2>Las tendencias de hoy</h2>
+            <div class="galeriaTendencias">
+                <div> 
+                    <a href="./pages/detalle.html"><img  src="./assets/1.jpg" ></a>
+                </div>
+                <div>
+                    <a href="./pages/detalle.html"><img  src="./assets/2.jpg" ></a>
+                </div>
+                <div>
+                    <a href="./pages/detalle.html"><img  src="./assets/3.jpg" ></a>
+                </div>
+                <div>
+                    <a href="./pages/detalle.html"><img  src="./assets/4.jpg" ></a>
+                </div>
+                <div>
+                    <a href="./pages/detalle.html"><img  src="./assets/5.jpg" ></a>
+                </div>
+                <div>
+                    <a href="./pages/detalle.html"><img  src="./assets/6.jpg" ></a>
+                </div>
+                <div>
+                    <a href="./pages/detalle.html"><img  src="./assets/7.jpg" ></a>
+                </div>
+                <div>
+                    <a href="./pages/detalle.html"><img  src="./assets/8.jpg" ></a>
+                </div>
+             
+            </div>
+            <button >Anterior</button>  
+            <button >Siguiente</button>
+        </section>
+        <hr>
+        <section class="peliculasAclamadas" >
+            <h2>Las más aclamadas</h2>
+             <div class="galeriaAclamadas">
+                <div >
+                    <img  src="./assets/9.jpg" alt="aclamada_1" loading="lazy">
+                </div>
+                <div >
+                    <img  src="./assets/10.jpg" alt="aclamada_2" loading="lazy">
+                </div>
+                <div >
+                    <img  src="./assets/11.jpg" alt="aclamada_3" loading="lazy">
+                </div>
+                <div >
+                    <img  src="./assets/12.jpg" alt="aclamada_4" loading="lazy">
+                </div>
+                <div >
+                    <img  src="./assets/13.jpg" alt="aclamada_5" loading="lazy">
+                </div>
+                <div >
+                    <img  src="./assets/14.jpg" alt="aclamada_6" loading="lazy">
+                </div>
+                <div >
+                    <img  src="./assets/15.jpg" alt="aclamada_7" loading="lazy">
+                </div>
+                <div >
+                    <img src="./assets/16.jpg" alt="aclamada_8" loading="lazy">
+                </div>
+                <div >
+                    <img  src="./assets/17.jpg" alt="aclamada_9" loading="lazy">
+                </div>             
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <nav class="navegacion">
+            <ul class="listaNav">
+                <li class="listaItem"><a class="linkNav" href="">Términos y condiciones</a></li>
+                <li class="listaItem"><a class="linkNav" href="">Preguntas frecuentes</a></li>
+                <li class="listaItem"><a class="linkNav" href="">Ayuda</a></li>
+            </ul>
+        </nav>
+        <a href="#main" class="flechaArriba">Volver arriba
+        </a>
+    </footer>
+   
+</body>
+</html>
